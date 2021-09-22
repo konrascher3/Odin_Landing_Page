@@ -6,7 +6,7 @@ In this project, a complete landing page is constructed based on two images repr
 ![Layout](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png)
 ![Styling](https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/colors_and_stuff.png)
 
-Aim is to put CSS and HTMML into a practical context, with a main focus on the CSS flex feature.
+Aim is to put CSS and HTML into a practical context, with a main focus on the CSS flex feature.
 
 
 * [Preview link](#) for the finished landing page project
