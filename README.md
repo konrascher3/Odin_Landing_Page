@@ -9,4 +9,4 @@ In this project, a complete landing page is constructed based on two images repr
 Aim is to put CSS and HTML into a practical context, with a main focus on the CSS flex feature.
 
 
-* [Preview link](https://htmlpreview.github.io/?https://github.com/konrascher3/Odin_Landing_Page/blob/main/index.html) for the finished landing page project
+* [Preview link](https://htmlpreview.github.io/?https://github.com/konrascher3/Odin_Landing_Page/blob/main/) for the finished landing page project
