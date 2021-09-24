@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 /* Header Formatting */
@@ -23,22 +24,29 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background: #1f2937;
+    justify-content: center;
+    background: #20397C;
     padding: 10px 200px;
+    align-items: center;
 }
 
 .company-logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    margin-right: 30px;
+    margin-right: 550px;
+}
+
+.company-logo img {
+    height: 100px;
+    width: auto;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
 }
 
 ul {
@@ -70,10 +78,11 @@ main {
 
 .main-container-1 {
     display: flex;
-    padding: 100px 200px;
-    background: #1f2937;
+    padding: 50px 200px;
+    background: #20397C;
     flex: 1;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-subcontainer-1 {
@@ -87,13 +96,14 @@ main {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
-    max-width: 400px;
+    max-width: 450px;
 }
 
 .left-subcontainer-1-middle {
     font-size: 18px;
     color: #e5e7eb;
     max-width: 450px;
+    margin-top: 10px;
 }
 
 .left-subcontainer-1-bottom {
@@ -104,14 +114,15 @@ main {
 .Button {
     padding: 6px 30px;
     margin: 5px 0 0 0;
-    background: #3882f6;
+    background: #20397C;
     border-radius: 5px;
     color: #f9faf8;
+    border: 1px solid #f9faf8;
 }
 
 .Button:hover {
     cursor: pointer;
-    background: #4188fc;
+    background: #354981;
 }
 
 .right-subcontainer-1 {
@@ -120,14 +131,11 @@ main {
     align-items: center;
 }
 
-.image {
-    width: 700px;
-    height: 208px;
-    background: grey;
-    text-align: center;
-    color: white;
+.right-subcontainer-1 img {
+    height: 300px;
+    width: auto;
+    border-radius: 5px;
 }
-
 /* Main container 2 formatting */
 
 .main-container-2 {
@@ -137,13 +145,13 @@ main {
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 50px 50px 90px 50px;
 }
 
 .top-subcontainer-2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    color: #20397C;
     text-align: center;
 }
 
@@ -158,6 +166,8 @@ main {
 
 .frame-container {
     display: flex;
+    width: 282px;
+    height: 263px;
     flex-direction: column;
     margin: 0 25px;
     align-items: center;
@@ -165,20 +175,42 @@ main {
 
 .illustration-container {
     display: flex;
+    max-width: 282px;
 }
 
 .illustration {
-    padding: 80px 80px;
-    border: 3px solid #3882f6;
+    padding: 5px;
+    border: 3px solid #20397C;
     border-radius: 10px;
     display: flex;
+}
+
+.products {
+    height: 200px;
+    border-radius: 8px;
+    width: auto;
+}
+
+.dwight {
+    height: 200px;
+    width: 266px;
+    border-radius: 8px
+}
+
+.warehouse {
+    border-radius: 8px;
+}
+
+.michael-scott {
+    border-radius: 8px;
+    
 }
 
 .description-container {
     text-align: center;
     margin-top: 5px;
     color: grey;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 /* Main container 3 formatting */
@@ -194,7 +226,7 @@ main {
     padding: 50px 0 50px 0;
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
+    color: #20397C;
     max-width: 800px;
 }
 
@@ -202,7 +234,8 @@ main {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
-    color: #1f2937;
+    color: #20397C;
+    margin-top: 10px;
     font-size: 20px;
 }
 
@@ -221,7 +254,7 @@ main {
 .cto-subcontainer-1 {
     display: flex;
     justify-content: center;
-    background: #3882f6;
+    background: #20397C;
     padding: 40px 100px;
     border-radius: 5px;
     color: white;
@@ -259,5 +292,16 @@ main {
 }
 
 .right-cto-subcontainer-1 .Button:hover {
-    background: #2679fd;
+    background: #354981;
+}
+
+/* Footer formatting */
+
+.footer-container {
+    background: #20397C;
+    color: white;
+    display: flex;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: center;
 }
