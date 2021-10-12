@@ -1,4 +1,4 @@
-# Odin_Landing_Page
+# odin-landing-page
 Complete static landing page based on CSS and HTML
 
 In this project, a complete landing page is constructed based on two images representing the final product (goal state).
